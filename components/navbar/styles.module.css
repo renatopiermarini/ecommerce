@@ -1,0 +1,63 @@
+#navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.navbarBanner {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.navbarMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: 7.3rem;
+}
+
+.navbarMain input {
+    height: 30px;
+    padding: 0.6rem;
+    width: 250px;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+
+.navbarLogo {
+    height: 130px;
+    width: 130px;
+    position: relative;
+}
+
+.navbarMenu {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarMenu ul {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    list-style-type: none;
+}
+
+.navbarMenu ul li {
+    cursor: pointer;
+}

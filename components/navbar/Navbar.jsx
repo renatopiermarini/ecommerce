@@ -1,6 +1,7 @@
 import styles from './styles.module.css';
 import logo from 'assets/logo.png';
 import Image from 'next/image';
+import SearchIcon from './SearchIcon';
 
 const Navbar = () => {
   return (
@@ -9,7 +10,8 @@ const Navbar = () => {
         <span>ENVIO GRATIS A TODO EL PAIS EN COMPRAS SUPERIORES A $10.000</span>
       </section>
       <section className={styles.navbarMain}>
-        <input type="search" placeholder="Buscar..." />
+        <SearchIcon />
+        {/* <input type="search" placeholder="Buscar..." /> */}
         <div className={styles.navbarLogo}>
           <Image src={logo} layout="fill" alt="logo cambiar esto" />
         </div>
